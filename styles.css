@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    background-image: url("file:///D:/Animation sort/94185.jpg"); /* Replace "your-image-url.jpg" with the URL of your background image */
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 5vmax;
+    
+  }
+  #arrayInput {
+    border-color: navajowhite;
+    border-radius: 3vmax;
+    height: 35px;
+    width: 15%;
+
+  }
+  
+  .circle {
+    background-color: #74c69D;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50%;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+  }
+  h1 {
+    font-size: 4em; /* Adjust the font size to your preference */
+    text-align: center;
+    font-family: 'Your Font Family', sans-serif; /* Replace 'Your Font Family' with the desired font name */
+    color: #0b6e4f; /* Replace with your desired eye-catching color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add the text shadow - adjust the values as needed */
+    /* Add any other styles you want */
+    -webkit-text-stroke: 1px #fff; /* Apply the white stroke */
+    
+  }
+  p {
+    font-size: 1.7em; /* Adjust the font size to your preference */
+    text-align: center; /* Center-align the text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Replace 'Your Stylish Font Family' with the desired font name */
+    color: #3DAC78; /* Orange shade color (adjust the color code to your desired shade) */
+  }
+  button {
+    font-size: 1em; /* Adjust the font size to your preference */
+    padding: 10px 20px; /* Add padding to the button for better appearance */
+    border: 2px solid #333; /* Dark border color (adjust the color code to your desired dark color) */
+    background-color: #fff; /* Button background color (adjust the color code to your desired default color) */
+    color: #333; /* Button text color (adjust the color code to your desired default color) */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    border-radius: 2vmax;
+  
+    /* Add any other styles you want for the button */
+  }
+  
+  button:hover {
+    background-color: #333; /* Button background color on hover (adjust the color code to your desired bright color) */
+    color: #fff; /* Button text color on hover (adjust the color code to your desired bright color) */
+    font-size: 1.2em; /* Font size on hover (increase the font size for the hover effect) */
+    border-color: #fff; /* Border color on hover (adjust the color code to your desired bright color) */
+  
+    /* Add any other styles you want for the button on hover */
+  }
+  
